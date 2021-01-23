@@ -3,66 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoIT - Practice</title>
+    <title>Range</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <button id="decrement">-</button>
-    <p id="count"></p>
-    <button id="increment">+</button>
-
-    <!-- 14.11 -->
-    <div class="insertElem">
-      <!-- ВСТАВЛЯТЬ СЮДА -->
-      <article>
-        <h2></h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          eius.
-        </p>
-        <div>
-          <ul>
-            <li>
-              <a href=""><img src="#" alt="" /></a>
-            </li>
-            <li>
-              <a href=""><img src="#" alt="" /></a>
-            </li>
-            <li>
-              <a href=""><img src="#" alt="" /></a>
-            </li>
-          </ul>
-        </div>
-        <p>Sandra <span>11.11.2020</span></p>
-        <input type="checbox" />
-      </article>
+    <h1>Hello, I am range!</h1>
+    <div class="slider-price">
+      <div class="input-wrapper from">
+        <span>From</span>
+        <input type="number" value="0" min="0" max="100" name="min" />
+        <input type="range" value="0" min="0" max="100" step="5" />
+      </div>
+      <div class="input-wrapper to">
+        <span>To</span>
+        <input type="number" value="100" min="0" max="100" name="max" />
+        <input type="range" value="100" min="0" max="100" step="5" />
+      </div>
     </div>
 
-    <ul>
-      <!-- ВСТАВЛЯТЬ СЮДА -->
-      <li>
-        <a href="#"><img src="#" alt="" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="#" alt="" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="#" alt="" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="#" alt="" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="#" alt="" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="#" alt="" /></a>
-      </li>
-    </ul>
-
-    <!-- <script src="./js/practice-4-10.js" type="module"></script> -->
-    <!-- <script src="./js/practice-18-10.js" type="module"></script> -->
-    <!-- <script src="./js/practice-01-11.js" type="module"></script> -->
-    <!-- <script src="./js/practice-14-11.js" type="module"></script> -->
-    <script src="./js/practice-28-11.js" type="module"></script>
+    <script src="app.js"></script>
   </body>
 </html>
